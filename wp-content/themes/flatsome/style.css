@@ -1,0 +1,60 @@
+.text-numb {
+    font-size: 45px;
+}
+
+.banner-bg {
+	background: linear-gradient(180deg,#000a24 61.39%,#00154a 107.28%);
+}
+
+.banner-bg .section-content.relative{
+    background-image: url(https://mars107.com/wp-content/uploads/2022/09/bg-social.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    padding: 50px 0;
+}
+
+.p-arrow {
+	padding-left: 45px;
+	margin: 0;
+}
+
+.p-arrow:before {
+    content: url(https://box.studio/assets/b6100518/new_theme/images/bg/arrow.svg);
+    width: 30px;
+    height: 30px;
+	position: absolute;
+    left: 10px;
+}
+li {
+    margin: 0;
+}
+ul.level-2 {
+    margin: 0px 10px;
+}
+
+@media (min-width: 768px) {
+	.banner-middle .col.medium-2 {
+		max-width: 20%;
+		-ms-flex-preferred-size: 20%;
+		flex-basis: 20%;
+	}
+}
+
+@media (max-width: 768px) {
+	main.main.main-ani {
+		display: none;
+	}
+}
+
+h6.entry-category.is-xsmall, div#respond {
+	display: none;
+}
+
+a.nav-top-link {
+    border-radius: 5px !important;
+}
+a.nav-top-link {
+    font-size: 18px !important;
+	padding: 10px 15px !important;
+}
